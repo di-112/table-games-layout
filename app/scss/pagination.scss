@@ -1,0 +1,18 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__refs {
+    padding: 0 0 50px;
+  }
+
+  &__ref {
+    color: green;
+    @include adaptiv-font(18, 16);
+    &.active {
+      color: $grennBlueColor;
+    }
+    padding: 0 10px;
+  }
+}
